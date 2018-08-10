@@ -13,3 +13,10 @@ new Vue({
   components: { App },
   template: '<App/>'
 })
+
+new Vue(
+  {
+    el: '#hello',
+    router
+  }
+)
