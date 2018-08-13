@@ -20,3 +20,7 @@ new Vue(
     router
   }
 )
+
+new Vue({
+  el: '#Welcome'
+})

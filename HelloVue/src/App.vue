@@ -3,14 +3,16 @@
     <img src="./assets/logo.png">
     <router-view/>
     <hello></hello>
+    <Welcome></Welcome>
   </div>
 </template>
 
 <script>
 import Hello from './Hello'
+import Welcome from './Welcome'
 export default {
   name: 'App',
-  components: {Hello}
+  components: {Welcome, Hello}
 }
 </script>
 
